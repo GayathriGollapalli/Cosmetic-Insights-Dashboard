@@ -1,131 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Cosmetic Dataset</title>
+    <title>Cosmetic Brands</title>
 
-<style>
+    <style>
+        body {
+            font-family: Arial;
+        }
 
-body{
-    font-family:Arial, sans-serif;
-    background:#0d1117;
-    color:white;
-    margin:20px;
-}
+        h1 {
+            text-align: center;
+        }
 
-h1{
-    text-align:center;
-}
+        .brand-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 30px;
+        }
 
-#search{
-    width:40%;
-    padding:10px;
-    margin:20px auto;
-    display:block;
-    border-radius:6px;
-    border:none;
-    font-size:16px;
-}
-
-.table-container{
-    overflow-x:auto;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-
-th{
-    background:#161b22;
-    color:white;
-    padding:10px;
-    border:1px solid #30363d;
-}
-
-td{
-    padding:8px;
-    border:1px solid #30363d;
-}
-
-tr:nth-child(even){
-    background:#161b22;
-}
-
-tr:hover{
-    background:#21262d;
-}
-
-</style>
+        .brand-card {
+            width: 180px;
+            padding: 15px;
+            text-align: center;
+            background: #f5f5f5;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+            box-shadow: 0 0 8px #ccc;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<h1>Cosmetic Dataset</h1>
+<h1>Cosmetic Brands</h1>
 
-<input
-type="text"
-id="search"
-placeholder="Search..."
-onkeyup="searchTable()">
+<div class="brand-container">
 
-<div class="table-container">
+{% for brand in brands %}
 
-<table id="myTable">
-
-<thead>
-<tr>
-
-{% for col in columns %}
-<th>{{ col }}</th>
-{% endfor %}
-
-</tr>
-</thead>
-
-<tbody>
-
-{% for row in data %}
-<tr>
-
-{% for col in columns %}
-<td>{{ row[col] }}</td>
-{% endfor %}
-
-</tr>
-{% endfor %}
-
-</tbody>
-
-</table>
-
+<div class="brand-card">
+    {{ brand }}
 </div>
 
-<script>
+{% endfor %}
 
-function searchTable(){
-
-let input=document.getElementById("search").value.toUpperCase();
-
-let table=document.getElementById("myTable");
-
-let tr=table.getElementsByTagName("tr");
-
-for(let i=1;i<tr.length;i++){
-
-let rowText=tr[i].innerText.toUpperCase();
-
-if(rowText.indexOf(input)>-1)
-tr[i].style.display="";
-else
-tr[i].style.display="none";
-
-}
-
-}
-
-</script>
+</div>
 
 </body>
 </html>
