@@ -20,11 +20,13 @@ def story():
 def brands():
     df = pd.read_csv("data/cosmetics.csv", encoding="latin1")
 
-    brands = sorted(df["Brand"].dropna().unique())
+    data = df.to_dict(orient="records")
+    columns = df.columns.tolist()
 
     return render_template(
         "brands.html",
-        brands=brands
+        data=data,
+        columns=columns
     )
 
     
