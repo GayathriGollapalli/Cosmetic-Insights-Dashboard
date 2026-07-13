@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ brand_name }}</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .product-card {
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f7f7f7;
+            box-shadow: 0 0 8px #aaa;
+            color: black;
+        }
+
+        .product-card h3 {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>{{ brand_name }}</h1>
+
+<h2>Products</h2>
+
+{% for product in products %}
+
+<div class="product-card">
+
+    <h3>{{ product["Name"] }}</h3>
+
+    <p><b>Price:</b> {{ product["Price"] }}</p>
+
+    <p><b>Ingredients:</b> {{ product["Ingredients"] }}</p>
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>
