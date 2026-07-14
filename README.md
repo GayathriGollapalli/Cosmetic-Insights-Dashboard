@@ -1,11 +1,21 @@
-## 🔗 Useful Links
+## 🔗 Project Links
 
-- **GitHub Repository:** https://github.com/GayathriGollapalli/Cosmetic-Insights-Dashboard
+- 📂 **GitHub Repository:** [GitHub Repository](https://github.com/GayathriGollapalli/Cosmetic-Insights-Dashboard)
 
-- **Tableau Public Profile:** https://public.tableau.com/app/profile/YOUR_USERNAME
+- 📊 **Tableau Dashboard:** [View Dashboard](https://public.tableau.com/views/Dashboard_17834383858790/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- **Tableau Dashboard:** https://public.tableau.com/views/YOUR_DASHBOARD_LINK
+- 📖 **Tableau Story:** [View Story](https://public.tableau.com/views/Cosmetic_Insightss/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- **Tableau Story:** https://public.tableau.com/views/YOUR_STORY_LINK
+- 🌍 **Tableau Public Profile:** [View Tableau Public Profile](https://public.tableau.com/app/profile/gollapalli.rishitha.gayathri/vizzes)
 
-- **Demo Video:** https://drive.google.com/file/d/YOUR_VIDEO_ID/view
+- 🎥 **Demo Video:** [Watch Demo](https://drive.google.com/file/d/1oMlhntnLVoA5Dnzxp_pv7vV0pw-rZDsL/view?usp=sharing)
+
+---
+
+## 👩‍💻 Author
+
+**Abdul Hafeez Shaik**
+**Avanigadda Dola Chaturya**
+**Gollapalli Rishitha GAyathri**
+**Golla Sana Grace**
+**Revathi Gorupina**
