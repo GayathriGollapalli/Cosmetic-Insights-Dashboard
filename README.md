@@ -10,12 +10,11 @@
 
 - 🎥 **Demo Video:** [Watch Demo](https://drive.google.com/file/d/1oMlhntnLVoA5Dnzxp_pv7vV0pw-rZDsL/view?usp=sharing)
 
----
+--
+## 👥 Authors
 
-## 👩‍💻 Author
-
-**Abdul Hafeez Shaik**
-**Avanigadda Dola Chaturya**
-**Gollapalli Rishitha GAyathri**
-**Golla Sana Grace**
-**Revathi Gorupina**
+- **Abdul Hafeez Shaik**
+- **Avanigadda Dola Chaturya**
+- **Gollapalli Rishitha Gayathri**
+- **Golla Sana Grace**
+- **Revathi Gorupina**
