@@ -2,7 +2,7 @@
 
 - 📂 **GitHub Repository:** [GitHub Repository](https://github.com/GayathriGollapalli/Cosmetic-Insights-Dashboard)
 
-- 📊 **Tableau Dashboard:** [View Dashboard](https://public.tableau.com/views/Dashboard_17834383858790/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- 📊 **Tableau Dashboard:** [View Dashboard](https://public.tableau.com/views/Cosmetic_Insights-Dashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - 📖 **Tableau Story:** [View Story](https://public.tableau.com/views/Cosmetic_Insightss/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
